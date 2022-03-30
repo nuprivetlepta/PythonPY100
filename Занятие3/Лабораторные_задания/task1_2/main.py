@@ -1,5 +1,10 @@
-# TODO запишите здесь функцию factorial
 
+def factorial(n):
+    o = 1
+    for m in range(1, n + 1):
+        o = o * m
+    return o
 
 if __name__ == "__main__":
-    # TODO распечатать результат выполнения функции factorial от числа 5
+    n = 5
+    print(factorial(n))

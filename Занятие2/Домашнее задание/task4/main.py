@@ -8,7 +8,7 @@ if __name__ == "__main__":
             max_value = value         # perezapisivaem maximum po usloliju
             i_max = index       # perezapisivaem index
     list_[i_max] = list_[0]     # prisvaivaem maximalnomu uchastniku velichinu pervogo componenta
-    list_[0] = max              # prisvaivaem pervomu componentu znachenie max
+    list_[0] = max_value             # prisvaivaem pervomu componentu znachenie max
 
     print(list_)
     print(max, i_max)

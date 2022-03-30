@@ -3,14 +3,14 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 25
-    length: 67
+  - offset: 43
+    length: 217
     placeholder_text: '...  # TODO выберите нужный цикл, чтобы получать числа с клавиатуры'
     initial_state:
       length: 67
       offset: 25
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       numbers_list = []
@@ -35,5 +35,7 @@ files:
   visible: false
   learner_created: false
 status: Solved
+feedback:
+  time: Wed, 30 Mar 2022 16:37:42 UTC
 record: -1
 post_submission_on_open: true
