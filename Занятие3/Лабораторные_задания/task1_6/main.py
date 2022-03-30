@@ -1,13 +1,17 @@
 # TODO написать функцию для поиска необходимой суммы денег
-salary = 50000
-spend = 55000
-month = 10
-koef = 1.03
-tot_sal = salary * month
-while
+def zanachka(salary, spend, month, koef):
+    tot_sal = salary * month
+    tot_spen = 0
+    for n in range(month):
+        tot_spen = tot_spen + spend
+        spend = spend * koef
+
+    nichka = tot_spen - tot_sal
+
+    return nichka
 
 
 
 
 if __name__ == "__main__":
-    ...  # TODO вызвать функцию и проверить работоспособность
+    print(zanachka(50000, 55000, 10, 1.03))
