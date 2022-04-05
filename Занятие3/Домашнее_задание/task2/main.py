@@ -1,5 +1,22 @@
 def check_string(str_):
-    ...  # TODO проверить что в строку входят только символы 1 и 0
+    if len(str_) != 0:
+        for sym in str_:
+            if sym != "0" and sym != "1":
+                return False
+        return True
+    else:
+        return False
+    # if len(str_) != 0:
+    #     for i in range(len(str_)):
+    #         if str_[i] != '1' and str_[i] != '0':
+    #             return False
+    #     return True
+    # else:
+    #     return False
+
+
+
+
 
 
 if __name__ == "__main__":

@@ -4,37 +4,37 @@ files:
   visible: true
   placeholders:
   - offset: 46
-    length: 52
+    length: 40
     placeholder_text: '...  # TODO разделить строку по пробелам'
     initial_state:
       length: 40
       offset: 46
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: str_.split(" ")
-  - offset: 167
-    length: 97
+  - offset: 155
+    length: 50
     placeholder_text: '# TODO поместить в результирующий список все слова'
     initial_state:
       length: 50
       offset: 155
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       for word in words_list:
               if word:
                   words_list_without_empty_string.append(word)
-  - offset: 320
-    length: 81
+  - offset: 261
+    length: 42
     placeholder_text: '...  # TODO соединить список слов в строку'
     initial_state:
       length: 42
       offset: 261
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: '" ".join(words_list_without_empty_string)'
   text: |
     def remove_whitespace(str_):
@@ -55,8 +55,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Solved
-feedback:
-  time: Wed, 30 Mar 2022 16:08:59 UTC
+status: Unchecked
 record: -1
 post_submission_on_open: true

@@ -9,13 +9,13 @@ files:
   visible: true
   placeholders:
   - offset: 110
-    length: 12
+    length: 19
     placeholder_text: '...)  # TODO'
     initial_state:
       length: 12
       offset: 110
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: min(list_))
   text: |
@@ -29,5 +29,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 30 Mar 2022 15:06:17 UTC
+  time: Sun, 27 Mar 2022 16:20:49 UTC
 record: -1
