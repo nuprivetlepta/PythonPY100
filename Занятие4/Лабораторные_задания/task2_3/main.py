@@ -1,5 +1,10 @@
 def task(num):  # TODO добавить аннотацию типов
-    ...  # TODO найти сумму цифр числа и понять двузначная ли она
+    list_dig = [abs(int(dig)) for dig in str(abs(num))]
+    sum_ = sum(list_dig)
+    if 100 > sum_ // 10 > 0:
+        return True
+    else:
+        return False
 
 
 if __name__ == "__main__":

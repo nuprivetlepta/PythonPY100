@@ -1,5 +1,5 @@
-def task():  # TODO записать решение в виде функции
-    ...
+def task(src_list: list) -> list:  # TODO записать решение в виде функции
+   return [num ** 3 if num >= 0 else num - num for num in src_list]
 
 
 if __name__ == "__main__":

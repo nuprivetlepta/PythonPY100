@@ -1,5 +1,5 @@
 def get_max_length_word(str_words):
-    str_ = str_words.split(' ')  # TODO получить список непустых слов
+    `str_ = str_words.split(' ')  # TODO получ`ить список непустых слов
 
     max_len = 0  # пусть изначально длина самого длинного слова равна 0
     for word in str_:  # TODO пройти по всем словам и найти самую большую длину
