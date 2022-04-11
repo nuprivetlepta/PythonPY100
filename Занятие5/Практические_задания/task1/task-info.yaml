@@ -18,7 +18,7 @@ files:
       offset: 170
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'range(len(matrix)):'
   - offset: 239
     length: 46
@@ -28,7 +28,7 @@ files:
       offset: 239
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'range(len(matrix[row_index])):'
   text: |
     if __name__ == "__main__":
@@ -47,6 +47,12 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+- name: views
+  visible: true
+  learner_created: true
+- name: tests/views.py
+  visible: true
+  learner_created: true
+status: Solved
 record: -1
 post_submission_on_open: true
