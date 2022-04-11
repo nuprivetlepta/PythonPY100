@@ -9,13 +9,13 @@ files:
   visible: true
   placeholders:
   - offset: 55
-    length: 117
+    length: 63
     placeholder_text: '...  # TODO найти количество четных чисел в списке list_numbers'
     initial_state:
       length: 63
       offset: 55
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: return len([even_num for even_num in list_numbers if
       even_num % 2 == 0])
@@ -33,5 +33,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 06 Apr 2022 16:26:00 UTC
+  time: Wed, 06 Apr 2022 20:16:10 UTC
 record: -1

@@ -9,23 +9,23 @@ files:
   visible: true
   placeholders:
   - offset: 44
-    length: 87
+    length: 47
     placeholder_text: '...  # TODO найти среднее арифметическое списка'
     initial_state:
       length: 47
       offset: 44
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: mean = sum(list_numbers) / len(list_numbers)
-  - offset: 136
-    length: 106
+  - offset: 96
+    length: 61
     placeholder_text: '...  # TODO с помощью list comprehension вернуть новый список'
     initial_state:
       length: 61
       offset: 96
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: return [num for num in list_numbers if num > mean]
   text: |
@@ -43,5 +43,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 06 Apr 2022 16:43:17 UTC
+  time: Wed, 06 Apr 2022 20:17:28 UTC
 record: -1

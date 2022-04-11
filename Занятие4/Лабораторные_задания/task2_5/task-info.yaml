@@ -10,19 +10,19 @@ files:
   visible: true
   placeholders:
   - offset: 48
-    length: 102
+    length: 53
     placeholder_text: '...  # TODO проверить что число больше или равно нулю'
     initial_state:
       length: 53
       offset: 48
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       if num < 0:
               raise ValueError("Число должно быть неотрицательным")
-  - offset: 156
-    length: 29
+  - offset: 107
+    length: 49
     placeholder_text: '...  # TODO проверить является ли число палиндром'
     initial_state:
       length: 49
@@ -48,5 +48,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 06 Apr 2022 18:08:40 UTC
+  time: Wed, 06 Apr 2022 20:20:46 UTC
 record: -1

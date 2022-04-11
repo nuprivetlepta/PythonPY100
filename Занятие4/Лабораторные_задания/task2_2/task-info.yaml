@@ -12,23 +12,23 @@ files:
   visible: true
   placeholders:
   - offset: 24
-    length: 74
+    length: 36
     placeholder_text: '...  # TODO сформировать список цифр'
     initial_state:
       length: 36
       offset: 24
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: list_digits = [int(digit) for digit in str(num)]
-  - offset: 107
-    length: 74
+  - offset: 69
+    length: 29
     placeholder_text: '...:  # TODO записать условие'
     initial_state:
       length: 29
       offset: 69
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: '(4 in list_digits and 7 in list_digits) or 9 in list_digits:'
   text: |
@@ -53,5 +53,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 06 Apr 2022 17:44:26 UTC
+  time: Wed, 06 Apr 2022 20:17:46 UTC
 record: -1

@@ -9,7 +9,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 141
+    length: 59
     placeholder_text: |-
       def task():  # TODO записать решение в виде функции
           ...
@@ -17,7 +17,7 @@ files:
       length: 59
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       def task(src_list: list) -> list:
@@ -38,5 +38,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 06 Apr 2022 17:16:46 UTC
+  time: Wed, 06 Apr 2022 20:17:39 UTC
 record: -1

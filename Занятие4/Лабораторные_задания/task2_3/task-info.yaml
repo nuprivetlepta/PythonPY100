@@ -22,13 +22,13 @@ files:
     status: Solved
     encrypted_possible_answer: 'def task(num: int) -> bool:'
   - offset: 52
-    length: 156
+    length: 61
     placeholder_text: '...  # TODO найти сумму цифр числа и понять двузначная ли она'
     initial_state:
       length: 61
       offset: 52
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       list_digits = [int(digit) for digit in str(abs(num))]
@@ -50,5 +50,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 06 Apr 2022 17:53:08 UTC
+  time: Wed, 06 Apr 2022 20:17:53 UTC
 record: -1
