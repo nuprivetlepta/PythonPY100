@@ -11,7 +11,7 @@ files:
   visible: true
   placeholders:
   - offset: 170
-    length: 43
+    length: 58
     placeholder_text: '...:  # TODO Как получить количество строк?'
     initial_state:
       length: 43
@@ -20,8 +20,8 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: 'range(len(matrix)):'
-  - offset: 239
-    length: 46
+  - offset: 254
+    length: 72
     placeholder_text: '...:  # TODO как получить количество столбцов?'
     initial_state:
       length: 46
@@ -47,10 +47,10 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-- name: views
+- name: tests/views.py
   visible: true
   learner_created: true
-- name: tests/views.py
+- name: tests/models.py
   visible: true
   learner_created: true
 status: Solved
